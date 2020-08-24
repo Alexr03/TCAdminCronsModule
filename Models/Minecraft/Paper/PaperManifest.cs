@@ -33,7 +33,7 @@ namespace TCAdminCrons.Models.Minecraft.Paper
             
             var variables = new Dictionary<string, object>
             {
-                {"Update.Version", version}
+                {"Update", version}
             };
             
             var gameUpdate = new GameUpdate
